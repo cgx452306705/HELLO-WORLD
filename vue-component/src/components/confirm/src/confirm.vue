@@ -21,6 +21,12 @@ export default {
       syncIsShow: this.isShow
     }
   },
+  props: {
+    customClass: {
+      type: String,
+      default: 'am-modal-confirm'
+    }
+  },
   components: {
     Modal,
     ModalHeader,
