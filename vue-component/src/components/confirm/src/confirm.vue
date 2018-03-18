@@ -16,6 +16,11 @@ import {
 } from '../../modal'
 
 export default {
+  data() {
+    return {
+      syncIsShow: this.isShow
+    }
+  },
   components: {
     Modal,
     ModalHeader,
