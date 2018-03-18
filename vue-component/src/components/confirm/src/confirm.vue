@@ -25,6 +25,37 @@ export default {
     customClass: {
       type: String,
       default: 'am-modal-confirm'
+    },
+    title: {
+      type: String
+    },
+    cancelBtnText: {
+      type: String,
+      default: '取消'
+    },
+    confirmBtnText: {
+      type: String,
+      default: '确定'
+    },
+    width: {
+      type: Number,
+      default: 0
+    },
+    height: {
+      type: Number,
+      default: 0
+    },
+    isShow: {
+      type: Boolean,
+      default: false
+    },
+    closeViaDimmer: {
+      type: Boolean,
+      default: true
+    },
+    transition: {
+      type: String,
+      default: 'scale-up'
     }
   },
   components: {
