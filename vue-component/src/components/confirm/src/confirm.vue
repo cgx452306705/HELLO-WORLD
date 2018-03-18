@@ -25,6 +25,14 @@ export default {
     customClass: {
       type: String,
       default: 'am-modal-confirm'
+    },
+    cancelBtnText: {
+      type: String,
+      default: '取消'
+    },
+    cancelBtnText: {
+      type: String,
+      default: "确定"
     }
   },
   components: {
