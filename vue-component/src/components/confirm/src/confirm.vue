@@ -58,6 +58,9 @@ export default {
       default: 'scale-up'
     }
   },
+  methods: {
+
+  },
   components: {
     Modal,
     ModalHeader,
